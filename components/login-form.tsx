@@ -93,7 +93,11 @@ export function LoginForm() {
             </Button>
           </div>
         </form>
-
+        <Link href="/presentation" className="w-full">
+          <Button variant="outline" className="w-full">
+            View Presentation
+          </Button>
+        </Link>
       </div>
       <p className="px-8 text-center text-sm text-muted-foreground">
         Don&apos;t have an account?{" "}
